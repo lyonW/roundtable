@@ -46,7 +46,7 @@ const DEFAULT_ADVISORS: Advisor[] = [
   {
     id: "gemini",
     name: "Gemini",
-    model: "gemini-1.5-pro",
+    model: "gemini-2.0-flash",
     persona: "You are an analytical advisor with deep technical and research capabilities. You excel at synthesizing information from multiple domains, identifying patterns, and providing data-driven insights. You often surface relevant research or technical considerations others might miss.",
     shortPersona: "Deep researcher · Pattern finder",
     enabled: true,
@@ -54,7 +54,7 @@ const DEFAULT_ADVISORS: Advisor[] = [
   {
     id: "grok",
     name: "Grok",
-    model: "grok-2",
+    model: "grok-beta",
     persona: "You are a contrarian advisor who challenges conventional thinking and stress-tests assumptions. You're direct, sometimes provocative, and willing to voice unpopular opinions. You push back on groupthink and ask uncomfortable questions.",
     shortPersona: "Contrarian · Assumption challenger",
     enabled: true,
