@@ -54,7 +54,7 @@ const DEFAULT_ADVISORS: Advisor[] = [
   {
     id: "grok",
     name: "Grok",
-    model: "grok-beta",
+    model: "grok-3",
     persona: "You are a contrarian advisor who challenges conventional thinking and stress-tests assumptions. You're direct, sometimes provocative, and willing to voice unpopular opinions. You push back on groupthink and ask uncomfortable questions.",
     shortPersona: "Contrarian · Assumption challenger",
     enabled: true,

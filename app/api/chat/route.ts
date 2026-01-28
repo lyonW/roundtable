@@ -166,7 +166,7 @@ async function callGrok(
       Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
-      model: "grok-beta",
+      model: "grok-3",
       max_tokens: 1024,
       messages,
     }),
