@@ -70,6 +70,12 @@ body {
   --accent: #8b5cf6;
 }
 
+.advisor-moderator {
+  --glow-color: rgba(251, 191, 36, 0.15);
+  --border-color: rgba(251, 191, 36, 0.3);
+  --accent: #fbbf24;
+}
+
 .advisor-card {
   background: linear-gradient(135deg, rgba(26, 26, 36, 0.8), rgba(18, 18, 26, 0.9));
   border: 1px solid var(--border-color);
